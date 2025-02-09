@@ -1,5 +1,12 @@
-# Getting Started with Create React App
+# Hotel Menu Basic Designs
 
+## Steps
+1. Please install all necessary dependency.
+2. Please install json server in cmd
+3. run the backend db.json file using json server
+4. Then run the react project. 
+
+## Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
