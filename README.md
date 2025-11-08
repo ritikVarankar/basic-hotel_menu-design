@@ -1,77 +1,60 @@
-# Hotel Menu Basic Designs
+# 🍽️ Hotel Menu – Basic UI Designs (Frontend + Backend)
 
-## Steps
-1. Please install all necessary dependency.
-2. Please install json server in cmd
-3. run the backend db.json file using json server
-4. Then run the react project. 
+A modern and elegant **Hotel Menu Web Design Project** built using **React, HTML, CSS, JavaScript**, and **Bootstrap**.  
+This project also includes a **mock backend using `json-server`** to simulate RESTful API requests for menu items, user details, and customer ratings.
 
-## Getting Started with Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+## 🌐 Project Demo  
 
-## Available Scripts
+https://github.com/user-attachments/assets/938dfa69-b992-4ee7-b82a-53d49c5b5be4
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎨 Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The **Hotel Menu Design** provides a complete restaurant-style web interface — from a welcoming landing page to a fully functional menu and feedback section.  
+It’s designed to showcase modern UI principles, responsive layouts, and simple backend integration for dynamic data management.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project is ideal for showcasing **frontend design**, **API usage**, and **React-based development** skills.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Features
 
-### `npm run build`
+- 🔐 **Login Modal** – Simple and stylish modal-based login screen  
+- 🏨 **Introduction / Landing Page** – Beautiful introduction section with a hero banner  
+- 🍔 **Menu Pages** – Well-structured food menu layout with categories, images, and prices  
+- ℹ️ **About Us & Contact Us Page** – Information about the restaurant and contact form  
+- ⭐ **Rating Page** – Allows users to leave feedback and star ratings  
+- 🗄️ **Backend (JSON Server)** – Simulated REST API for fetching and storing data  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Library / Framework** | React.js |
+| **Styling** | Bootstrap 5 |
+| **Backend / Mock API** | JSON Server (`db.json`) |
+| **Version Control** | Git & GitHub |
+| **Deployment** | GitHub Pages (Frontend) |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## ⚙️ Backend Setup (JSON Server)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project includes a **`json-server`** folder containing a `db.json` file that works as a fake database.  
+It simulates backend data such as menu items, feedback, and user information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 📦 Install Backend Dependencies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Navigate to the backend folder
+cd json-server
 
-## Learn More
+# Install JSON Server package
+npm install json-server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
